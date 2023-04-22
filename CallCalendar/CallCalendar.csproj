@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\brother.png" />
+    <None Remove="icons\child.png" />
+    <None Remove="icons\dad.png" />
+    <None Remove="icons\friend_female.png" />
+    <None Remove="icons\friend_male.png" />
+    <None Remove="icons\grandma.png" />
+    <None Remove="icons\grandpa.png" />
+    <None Remove="icons\mom.png" />
+    <None Remove="icons\phone.png" />
+    <None Remove="icons\sister.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\brother.png" />
+    <Resource Include="icons\child.png" />
+    <Resource Include="icons\dad.png" />
+    <Resource Include="icons\friend_female.png" />
+    <Resource Include="icons\friend_male.png" />
+    <Resource Include="icons\grandma.png" />
+    <Resource Include="icons\grandpa.png" />
+    <Resource Include="icons\mom.png" />
+    <Resource Include="icons\phone.png" />
+    <Resource Include="icons\sister.png" />
+  </ItemGroup>
+
+</Project>
